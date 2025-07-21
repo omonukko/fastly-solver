@@ -56,8 +56,8 @@ def search(query: str):
                 },
                 {
 			        "bot_detection_result": {
-		            "bot_detected": False,
-			        "bot_kind": None
+		                "bot_detected": False,
+			            "bot_kind": None
 		            },
 		            "browser_metrics": {
 			            "client_data": "{\"rtt\":{\"error\":\"BotdError: navigator.connection is undefined\"},\"android\":{\"value\":false},\"browserKind\":{\"value\":\"firefox\"},\"browserEngineKind\":{\"value\":\"gecko\"},\"documentFocus\":{\"value\":true},\"userAgent\":{\"value\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0\"},\"appVersion\":{\"value\":\"5.0 (Windows)\"},\"windowSize\":{\"value\":{\"outerWidth\":1252,\"outerHeight\":1080,\"innerWidth\":1185,\"innerHeight\":1032}},\"pluginsLength\":{\"value\":5},\"pluginsArray\":{\"value\":true},\"productSub\":{\"value\":\"20100101\"},\"windowExternal\":{\"value\":\"[object External]\"},\"mimeTypesConsistent\":{\"value\":true},\"evalLength\":{\"value\":37},\"webGL\":{\"value\":{\"vendor\":\"Mozilla\",\"renderer\":\"ANGLE (Intel, Intel(R) HD Graphics Direct3D11 vs_5_0 ps_5_0), or similar\"}},\"webDriver\":{\"value\":false},\"languages\":{\"value\":[[\"ja\"],[\"ja\",\"en-US\",\"en\"]]},\"documentElementKeys\":{\"value\":[\"lang\"]},\"functionBind\":{\"value\":\"function bind() {\\n    [native code]\\n}\"},\"distinctiveProps\":{\"value\":{\"awesomium\":false,\"cef\":false,\"cefsharp\":false,\"coachjs\":false,\"fminer\":false,\"geb\":false,\"nightmarejs\":false,\"phantomas\":false,\"phantomjs\":false,\"rhino\":false,\"selenium\":false,\"webdriverio\":false,\"webdriver\":false,\"headless_chrome\":false}},\"iframeSrcdoc\":{\"value\":{\"hasSelfGet\":false}},\"notificationPermissions\":{\"value\":false}}",
