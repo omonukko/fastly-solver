@@ -43,7 +43,7 @@ def search(query: str):
     expires = data["expires"]
     ans = answer(base, hash)
     check = session.post(
-        f"https://pypi.org/{js.split('/')[1]}/fst-post-back", 
+        f"https://pypi.org/{js.split("/")[1].split("?reload=true")[0]}/fst-post-back", 
         json={
             "token": d["tok"],
             "data": [
